@@ -11,6 +11,11 @@ function App() {
       setvalue(value + 1);
     }
    } >Add</button>
+   <button onClick={
+    ()=>{
+      setvalue(value );
+    }
+   }>reset</button>
    </>
   )
 }
