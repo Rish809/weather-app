@@ -11,8 +11,17 @@ function App() {
       setvalue(value + 1);
     }
    } >Add</button>
+   <button onClick={
+    ()=>{
+      setvalue(value + 1);
+    }
+   } >Add2</button>
+    <button onClick={
+    ()=>{
+      setvalue(value + 1);
+    }
+   } >Add3</button>
    </>
   )
 }
-
 export default App
