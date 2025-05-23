@@ -2,8 +2,8 @@
 name: Hello Github Actions
 
 on:
- push:
-  branches: [develop]
+    push:
+      branches: [develop]
 
 jobs:
   say_hello:
